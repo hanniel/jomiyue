@@ -370,10 +370,12 @@ width: 100%;
 
   .footer p{
     margin: 0;
-    text-align: left;
+    text-align: center;
   }
   .footer h4{
     margin: 0.7em;
+    text-align: left;
+
   }
   .footer img{
     margin: 0;
