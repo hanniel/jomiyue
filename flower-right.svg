@@ -1382,7 +1382,7 @@
     animation: appear 1.7s ease-in forwards;
   }
   #flower-right{
-  animation-delay: .5s;
+  animation-delay: .3s;
   }
   #g-right{
   animation-delay: .5s;

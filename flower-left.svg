@@ -1910,14 +1910,14 @@
   <style>
   #flower-left, #g-left{
   opacity: 0;
-  transform: translate(12px, -12px);
+  transform: translate(-12px, -12px);
   animation: appear 1.7s ease-in forwards;
 }
 #flower-left{
-animation-delay: .5s;
+animation-delay: .1s;
 }
 #g-left{
-animation-delay: .5s;
+animation-delay: .3s;
 }
 
 @keyframes appear {
