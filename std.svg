@@ -13,31 +13,36 @@
   <title>std</title>
   <style>
     #save {
-  stroke-dasharray: 800;
-  stroke-dashoffset: 800;
-  animation: dash 2.7s ease-in forwards;
+  stroke-dasharray: 690;
+  stroke-dashoffset: 690;
+  animation: dash 2.0s  ease-in-out forwards;
 }
-#the, #date, #dlet {
+#the, #date {
 stroke-dasharray: 450;
 stroke-dashoffset: 450;
-animation: dash 2.0s ease-in forwards;
+animation: dash 1.6s  ease-in-out forwards;
+}
+ #dlet {
+stroke-dasharray: 450;
+stroke-dashoffset: 450;
+animation: dash 2.0s  ease-in-out forwards;
 }
 #tbar {
 stroke-dasharray: 250;
 stroke-dashoffset: 250;
-animation: dash 1.7s ease-in forwards;
+animation: dash .7s  ease-in-out forwards;
 }
 #the{
-animation-delay:2.3s;
+animation-delay:1.3s;
 }
 #tbar{
-animation-delay:2.9s;
+animation-delay:1.9s;
 }
 #dlet{
-animation-delay:4s;
+animation-delay:2.4s;
 }
 #date{
-animation-delay:4s;
+animation-delay:2.4s;
 }
 
 @keyframes dash {
